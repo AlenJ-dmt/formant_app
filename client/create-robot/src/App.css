@@ -1,0 +1,38 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+button{
+  width: 90%;
+  height: 50px;
+  background-color: #282c34;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.submit__btn:hover{
+  background-color: #61dafb;
+  cursor: pointer;
+}
+
+.submit__btn:active{
+  transform: translateY(3px);
+}
+
+
+@media only screen and (min-width: 600px){
+  .App{
+    width: 45%;
+    margin: 0 auto;
+  }
+}
